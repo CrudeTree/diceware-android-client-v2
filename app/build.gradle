@@ -10,9 +10,8 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField "String", "BASE_URL", '"http://10.0.2.2:8080/diceware/"'
-        // TODO Provide a Google OAuth web client ID.
-        buildConfigField "String", "CLIENT_ID", '""'
+        buildConfigField "String", "BASE_URL", '"http://10.46.2.228:8080/diceware/"'
+        buildConfigField "String", "CLIENT_ID", '"19491713447-p5398toeop32b1mloh7pg5pft5hm57t4.apps.googleusercontent.com"'
     }
     buildTypes {
         release {
